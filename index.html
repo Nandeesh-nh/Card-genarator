@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>trying the code with harry</title>
+  <style>
+    h3 {
+      font-size : 4rem;
+      font-weight : bolder;
+      color: darkblue;
+      text-align :center;
+      margin-bottom : 1rem;
+      margin-top : 0.2rem;
+    }
+    .container {
+      height : 30rem;
+      width : 25%;
+      background-color: lightcyan;
+      margin-bottom : 4rem;
+      border : 2px solid black;
+      border-radius : 5%;
+      padding : 1.3rem;
+      /* margin : auto;
+      margin-top : 1rem; */
+    }
+    .card-cont{
+      display : flex;
+      flex-direction : row;
+      width : 100%;
+      height : auto;
+      margin-bottom : 10rem;
+      margin-top : 2rem;
+      justify-content : space-evenly;
+      flex-wrap : wrap;
+      align-content : space-evenly;
+    }
+    .hello {
+      height: 3rem;
+    width: 9rem;
+    background-color: lightblue;
+    color: darkblue;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size : 1.2rem;
+    margin-left : 45%;
+    margin-bottom : 25px;
+    cursor : pointer;
+    }
+    .image {
+      height : 45%;
+      width : 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display : flex;
+      border-radius: 10px;
+      margin : auto;
+      margin-top : 0rem;
+    }
+    .title {
+      text-align : center;
+      font-size : 2em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .container h4 {
+      font-size : 1.6rem;
+      text-transform:capitalize ;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display : inline;
+    }
+
+    .name{
+      font-size : 1.4rem;
+      margin-left : 10px;
+      display : inline;
+    }
+    
+    .container:hover {
+      box-shadow : 4px 4px 9px black
+    }
+    
+    @media (max-width : 592px) {
+      .card-cont {
+        flex-direction : column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h3>Press on the button to create a card</h3>
+  <button class = "hello" onclick="myfunction()" >click here</button>
+  <div class = card-cont>  
+  </div>
+  
+  <script src = "variable.js"></script>
+</body>
+</html>
