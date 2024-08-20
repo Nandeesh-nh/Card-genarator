@@ -1,5 +1,5 @@
 let i = 0;
-
+var prompt = require('prompt-sync')();
 let title,views,cName,old,duration,url;
 
 function myfunction() {
